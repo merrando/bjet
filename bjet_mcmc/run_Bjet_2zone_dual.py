@@ -24,8 +24,8 @@ def e_to_v(val): return val / h
 
 # ---- User inputs ----
 Source = "Mrk421"
-parameter_file_1 = "parameter_files/Mrk421_ext.par"
-parameter_file_2 = "parameter_files/Mrk421_com.par"
+parameter_file_1 = "parameter_files/Mrk421_ext_mz.par"
+parameter_file_2 = "parameter_files/Mrk421_com_multizone_scaleup.par"
 name_stem = "test_bj"
 subdir_1 = "model_A_nointerp"
 subdir_2 = "model_B_nointerp"
@@ -34,7 +34,7 @@ subdir_2 = "model_B_nointerp"
 if Source == "Mrk421":
     Ylim = [1e-15,1e-8]
     Xlim = [1e8,1e28]
-    instrument_data_file = "real_data/Mrk421_SED_MAGIC_paper.dat"
+    instrument_data_file = "real_data/MAGIC_Mrk421_SED_MJD60291_vts.dat"
 else:
     raise ValueError("Only Mrk421 wired for this minimal example.")
 

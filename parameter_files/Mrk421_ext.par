@@ -14,7 +14,7 @@ Blob_parameters
 2.0E3          Minimum_electrons_energy 
 6.33E5         Maximum_electrons_energy 
 3e+04          Break_in_electrons_energy_spectrum 
-0.025         Magnetic_field_______________________________________[G] 
+0.025          Magnetic_field_______________________________________[G] 
 1.53e+16       Radius_of_emitting_region____________________________[cm] 
 0              length_of_emitting_region_(0_for_spherical_geometry)_[cm] 
 1              absorption_by_EBL_(0=NO___1=YES) 
